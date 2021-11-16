@@ -1,0 +1,26 @@
+{
+  "id" : "50be4d00-15cf-4699-8b96-7ad627ab676f",
+  "request" : {
+    "url" : "/rfq/shipment/count",
+    "method" : "POST",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json;charset=UTF-8"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@ == 394284)]"
+    }, {
+      "matchesJsonPath" : "$[?(@ == 434563)]"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"434563\":1,\"394284\":5}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "50be4d00-15cf-4699-8b96-7ad627ab676f"
+}

@@ -1,0 +1,16 @@
+{
+  "id" : "c9240e22-7eaa-4cef-a1f0-bfe7d0f1a8d4",
+  "request" : {
+    "url" : "/rfq/shipment/123456",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[\"565656\",\"787878\"]",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "c9240e22-7eaa-4cef-a1f0-bfe7d0f1a8d4"
+}
