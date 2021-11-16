@@ -1,5 +1,5 @@
 {
-  "id" : "50be4d00-15cf-4699-8b96-7ad627ab676f",
+  "id" : "001de2ee-2331-46ac-bce1-c98e2914b39a",
   "request" : {
     "url" : "/rfq/shipment/count",
     "method" : "POST",
@@ -16,11 +16,11 @@
   },
   "response" : {
     "status" : 200,
-    "body" : "{\"434563\":1,\"394284\":5}",
+    "body" : "{\"394284\":5,\"434563\":1}",
     "headers" : {
       "Content-Type" : "application/json"
     },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "50be4d00-15cf-4699-8b96-7ad627ab676f"
+  "uuid" : "001de2ee-2331-46ac-bce1-c98e2914b39a"
 }

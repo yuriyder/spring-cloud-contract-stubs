@@ -1,5 +1,5 @@
 {
-  "id" : "c9240e22-7eaa-4cef-a1f0-bfe7d0f1a8d4",
+  "id" : "aa2e5b33-fd6a-484e-a62a-63ddb04f72fb",
   "request" : {
     "url" : "/rfq/shipment/123456",
     "method" : "GET"
@@ -12,5 +12,5 @@
     },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "c9240e22-7eaa-4cef-a1f0-bfe7d0f1a8d4"
+  "uuid" : "aa2e5b33-fd6a-484e-a62a-63ddb04f72fb"
 }
