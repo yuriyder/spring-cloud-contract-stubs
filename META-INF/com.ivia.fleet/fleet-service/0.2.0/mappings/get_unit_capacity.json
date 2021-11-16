@@ -1,0 +1,16 @@
+{
+  "id" : "73a384d0-eb37-4a4a-ac13-4d9b96ba6930",
+  "request" : {
+    "url" : "/carriers/{carrierId}/units/capacity/get",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[\"565656\",\"787878\"]",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "73a384d0-eb37-4a4a-ac13-4d9b96ba6930"
+}
