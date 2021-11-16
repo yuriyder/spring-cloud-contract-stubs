@@ -1,16 +1,12 @@
 {
-  "id" : "73a384d0-eb37-4a4a-ac13-4d9b96ba6930",
+  "id" : "d89d11b7-8a9d-4114-b2df-cc8646401c1d",
   "request" : {
-    "url" : "/carriers/{carrierId}/units/capacity/get",
+    "url" : "/carriers/100/units/capacity/get?searchRadius=150&types=SVN,RFR&dimensions.length=100&dimensions.width=200&dimensions.height=300&payload=3000&dockHight=false&liftGate=true&requirements=&pickup.lat=29.95106579999999&pickup.lng=-90.0715323&lastEventId=&r=1072823132973666",
     "method" : "GET"
   },
   "response" : {
     "status" : 200,
-    "body" : "[\"565656\",\"787878\"]",
-    "headers" : {
-      "Content-Type" : "application/json"
-    },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "73a384d0-eb37-4a4a-ac13-4d9b96ba6930"
+  "uuid" : "d89d11b7-8a9d-4114-b2df-cc8646401c1d"
 }
