@@ -1,5 +1,5 @@
 {
-  "id" : "a577eefa-209d-4f81-8d6b-d0f7228f0dcb",
+  "id" : "d804687a-90b0-4416-923c-701db53e7617",
   "request" : {
     "url" : "/rfq/shipment/358748/unpost",
     "method" : "PUT"
@@ -8,5 +8,5 @@
     "status" : 200,
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "a577eefa-209d-4f81-8d6b-d0f7228f0dcb"
+  "uuid" : "d804687a-90b0-4416-923c-701db53e7617"
 }
